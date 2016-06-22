@@ -15,6 +15,9 @@
 		D54DFB9C1D0F9A4D00890358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54DFB9A1D0F9A4D00890358 /* LaunchScreen.storyboard */; };
 		D54DFBA71D0F9A4D00890358 /* loadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54DFBA61D0F9A4D00890358 /* loadingTests.m */; };
 		D54DFBB21D0F9A4D00890358 /* loadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54DFBB11D0F9A4D00890358 /* loadingUITests.m */; };
+		D59A00401D1A67520079FF97 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A003F1D1A67520079FF97 /* AnimationView.m */; };
+		D59A00431D1A731B0079FF97 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A00421D1A731B0079FF97 /* RootViewController.m */; };
+		D59A00461D1A7C890079FF97 /* WaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A00451D1A7C890079FF97 /* WaterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D54DFBAD1D0F9A4D00890358 /* loadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54DFBB11D0F9A4D00890358 /* loadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadingUITests.m; sourceTree = "<group>"; };
 		D54DFBB31D0F9A4D00890358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59A003E1D1A67520079FF97 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		D59A003F1D1A67520079FF97 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		D59A00411D1A731B0079FF97 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D59A00421D1A731B0079FF97 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D59A00441D1A7C890079FF97 /* WaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterView.h; sourceTree = "<group>"; };
+		D59A00451D1A7C890079FF97 /* WaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		D54DFB801D0F9A4D00890358 = {
 			isa = PBXGroup;
 			children = (
+				D59A003D1D1A673B0079FF97 /* views */,
 				D54DFB8B1D0F9A4D00890358 /* loading */,
 				D54DFBA51D0F9A4D00890358 /* loadingTests */,
 				D54DFBB01D0F9A4D00890358 /* loadingUITests */,
@@ -110,6 +120,8 @@
 				D54DFB9A1D0F9A4D00890358 /* LaunchScreen.storyboard */,
 				D54DFB9D1D0F9A4D00890358 /* Info.plist */,
 				D54DFB8C1D0F9A4D00890358 /* Supporting Files */,
+				D59A00411D1A731B0079FF97 /* RootViewController.h */,
+				D59A00421D1A731B0079FF97 /* RootViewController.m */,
 			);
 			path = loading;
 			sourceTree = "<group>";
@@ -138,6 +150,17 @@
 				D54DFBB31D0F9A4D00890358 /* Info.plist */,
 			);
 			path = loadingUITests;
+			sourceTree = "<group>";
+		};
+		D59A003D1D1A673B0079FF97 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D59A003E1D1A67520079FF97 /* AnimationView.h */,
+				D59A003F1D1A67520079FF97 /* AnimationView.m */,
+				D59A00441D1A7C890079FF97 /* WaterView.h */,
+				D59A00451D1A7C890079FF97 /* WaterView.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54DFB941D0F9A4D00890358 /* ViewController.m in Sources */,
+				D59A00401D1A67520079FF97 /* AnimationView.m in Sources */,
 				D54DFB911D0F9A4D00890358 /* AppDelegate.m in Sources */,
 				D54DFB8E1D0F9A4D00890358 /* main.m in Sources */,
+				D59A00461D1A7C890079FF97 /* WaterView.m in Sources */,
+				D59A00431D1A731B0079FF97 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = loading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sfb.loading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = loading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sfb.loading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +526,7 @@
 				D54DFBB81D0F9A4D00890358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D54DFBB91D0F9A4D00890358 /* Build configuration list for PBXNativeTarget "loadingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +535,7 @@
 				D54DFBBB1D0F9A4D00890358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D54DFBBC1D0F9A4D00890358 /* Build configuration list for PBXNativeTarget "loadingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +544,7 @@
 				D54DFBBE1D0F9A4D00890358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
