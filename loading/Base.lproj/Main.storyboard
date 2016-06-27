@@ -48,6 +48,38 @@
             </objects>
             <point key="canvasLocation" x="-413.5" y="-308.5"/>
         </scene>
+        <!--水波-->
+        <scene sceneID="0zK-oK-5Hk">
+            <objects>
+                <viewController id="MZ8-jC-ixv" customClass="WaveViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Tl-p0-iNd"/>
+                        <viewControllerLayoutGuide type="bottom" id="dDC-CL-n7E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0OM-bV-KZl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxU-Kz-7qC">
+                                <rect key="frame" x="157" y="110" width="60" height="30"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="MZ8-jC-ixv" eventType="touchUpInside" id="qBu-2A-DRY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYp-1Y-j3f">
+                                <rect key="frame" x="172" y="171" width="30" height="30"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="水波" id="PUA-Bc-KU7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fH5-Pi-PMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-397" y="530"/>
+        </scene>
         <!--首页-->
         <scene sceneID="SXC-3d-AWt">
             <objects>
@@ -85,6 +117,7 @@
                     <connections>
                         <outlet property="tableView" destination="noK-es-IQM" id="v21-UF-GhG"/>
                         <segue destination="BYZ-38-t0r" kind="push" identifier="cell0" id="Jef-vb-rE7"/>
+                        <segue destination="MZ8-jC-ixv" kind="push" identifier="cell1" id="qtI-Os-7Jh"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iK-83-y6C" userLabel="First Responder" sceneMemberID="firstResponder"/>

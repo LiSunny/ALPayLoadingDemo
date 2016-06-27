@@ -10,4 +10,8 @@
 
 @interface WaterView : UIView
 
+- (void)animationStart;
+
+- (void)clear;
+
 @end
