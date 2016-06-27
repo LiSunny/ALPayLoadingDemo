@@ -1,7 +1,8 @@
 # LoadingAnimation
 
-##介绍
-模仿支付宝支付加载动画
+##Introduction
+LoadingAnimation include a series of loadingAnimation, Now There is not finish.
 
-##效果演示
+##Effect
+
 ![gif](https://github.com/cclili/ALPayLoadingDemo/blob/master/Untitled.gif)
