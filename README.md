@@ -1,4 +1,4 @@
-# ALPayLoadingDemo
+# LoadingAnimation
 
 ##介绍
 模仿支付宝支付加载动画
