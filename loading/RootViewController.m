@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    dataSourceArr = [NSArray arrayWithObjects:@"线条动画",@"水波", nil];
+    dataSourceArr = [NSArray arrayWithObjects:@"线条动画",@"水波",@"点点",nil];
     
     
     // Do any additional setup after loading the view.
@@ -43,6 +43,10 @@
     }else if (indexPath.row == 1){
         
         [self performSegueWithIdentifier:@"cell1" sender:nil];
+        
+    }else if (indexPath.row == 2){
+        
+        [self performSegueWithIdentifier:@"cell2" sender:nil];
         
     }
     

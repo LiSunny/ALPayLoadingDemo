@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-413.5" y="-308.5"/>
+            <point key="canvasLocation" x="-281.5" y="-660.5"/>
         </scene>
         <!--水波-->
         <scene sceneID="0zK-oK-5Hk">
@@ -78,7 +78,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fH5-Pi-PMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-397" y="530"/>
+            <point key="canvasLocation" x="-281.5" y="77.5"/>
+        </scene>
+        <!--点点-->
+        <scene sceneID="vdx-kj-37G">
+            <objects>
+                <viewController id="t3Q-tL-70F" customClass="DDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U0I-Ka-7lp"/>
+                        <viewControllerLayoutGuide type="bottom" id="MxT-J6-RLr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z2R-cZ-T8K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAP-Mb-YME">
+                                <rect key="frame" x="157" y="114" width="60" height="30"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="t3Q-tL-70F" eventType="touchUpInside" id="yJu-CI-DNE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="点点" id="NvT-Gt-7A8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="du8-Yb-eIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-281.5" y="808.5"/>
         </scene>
         <!--首页-->
         <scene sceneID="SXC-3d-AWt">
@@ -118,6 +147,7 @@
                         <outlet property="tableView" destination="noK-es-IQM" id="v21-UF-GhG"/>
                         <segue destination="BYZ-38-t0r" kind="push" identifier="cell0" id="Jef-vb-rE7"/>
                         <segue destination="MZ8-jC-ixv" kind="push" identifier="cell1" id="qtI-Os-7Jh"/>
+                        <segue destination="t3Q-tL-70F" kind="push" identifier="cell2" id="wV5-7k-8LR"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iK-83-y6C" userLabel="First Responder" sceneMemberID="firstResponder"/>

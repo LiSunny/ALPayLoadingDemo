@@ -19,6 +19,8 @@
 		D59A00401D1A67520079FF97 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A003F1D1A67520079FF97 /* AnimationView.m */; };
 		D59A00431D1A731B0079FF97 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A00421D1A731B0079FF97 /* RootViewController.m */; };
 		D59A00461D1A7C890079FF97 /* WaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A00451D1A7C890079FF97 /* WaterView.m */; };
+		D5E09B171D225C71008E0BC7 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E09B161D225C71008E0BC7 /* DDViewController.m */; };
+		D5E09B1A1D225CC6008E0BC7 /* DDView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E09B191D225CC6008E0BC7 /* DDView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		D59A00421D1A731B0079FF97 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D59A00441D1A7C890079FF97 /* WaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterView.h; sourceTree = "<group>"; };
 		D59A00451D1A7C890079FF97 /* WaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterView.m; sourceTree = "<group>"; };
+		D5E09B151D225C71008E0BC7 /* DDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
+		D5E09B161D225C71008E0BC7 /* DDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		D5E09B181D225CC6008E0BC7 /* DDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDView.h; sourceTree = "<group>"; };
+		D5E09B191D225CC6008E0BC7 /* DDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,8 @@
 				D59A00421D1A731B0079FF97 /* RootViewController.m */,
 				D5939C981D20F52D00A7ED59 /* WaveViewController.h */,
 				D5939C991D20F52D00A7ED59 /* WaveViewController.m */,
+				D5E09B151D225C71008E0BC7 /* DDViewController.h */,
+				D5E09B161D225C71008E0BC7 /* DDViewController.m */,
 			);
 			path = loading;
 			sourceTree = "<group>";
@@ -164,6 +172,8 @@
 				D59A003F1D1A67520079FF97 /* AnimationView.m */,
 				D59A00441D1A7C890079FF97 /* WaterView.h */,
 				D59A00451D1A7C890079FF97 /* WaterView.m */,
+				D5E09B181D225CC6008E0BC7 /* DDView.h */,
+				D5E09B191D225CC6008E0BC7 /* DDView.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -300,8 +310,10 @@
 			files = (
 				D54DFB941D0F9A4D00890358 /* ViewController.m in Sources */,
 				D59A00401D1A67520079FF97 /* AnimationView.m in Sources */,
+				D5E09B1A1D225CC6008E0BC7 /* DDView.m in Sources */,
 				D54DFB911D0F9A4D00890358 /* AppDelegate.m in Sources */,
 				D54DFB8E1D0F9A4D00890358 /* main.m in Sources */,
+				D5E09B171D225C71008E0BC7 /* DDViewController.m in Sources */,
 				D59A00461D1A7C890079FF97 /* WaterView.m in Sources */,
 				D59A00431D1A731B0079FF97 /* RootViewController.m in Sources */,
 				D5939C9A1D20F52D00A7ED59 /* WaveViewController.m in Sources */,
