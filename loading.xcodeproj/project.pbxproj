@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D524CD121D2510F4000FB02D /* WindmillView.m in Sources */ = {isa = PBXBuildFile; fileRef = D524CD111D2510F4000FB02D /* WindmillView.m */; };
+		D524CD151D2511B8000FB02D /* WindmillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D524CD141D2511B8000FB02D /* WindmillViewController.m */; };
 		D54DFB8E1D0F9A4D00890358 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D54DFB8D1D0F9A4D00890358 /* main.m */; };
 		D54DFB911D0F9A4D00890358 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D54DFB901D0F9A4D00890358 /* AppDelegate.m */; };
 		D54DFB941D0F9A4D00890358 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54DFB931D0F9A4D00890358 /* ViewController.m */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D524CD101D2510F4000FB02D /* WindmillView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindmillView.h; sourceTree = "<group>"; };
+		D524CD111D2510F4000FB02D /* WindmillView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindmillView.m; sourceTree = "<group>"; };
+		D524CD131D2511B8000FB02D /* WindmillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindmillViewController.h; sourceTree = "<group>"; };
+		D524CD141D2511B8000FB02D /* WindmillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindmillViewController.m; sourceTree = "<group>"; };
 		D54DFB891D0F9A4D00890358 /* loading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54DFB8D1D0F9A4D00890358 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D54DFB8F1D0F9A4D00890358 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +141,8 @@
 				D5939C991D20F52D00A7ED59 /* WaveViewController.m */,
 				D5E09B151D225C71008E0BC7 /* DDViewController.h */,
 				D5E09B161D225C71008E0BC7 /* DDViewController.m */,
+				D524CD131D2511B8000FB02D /* WindmillViewController.h */,
+				D524CD141D2511B8000FB02D /* WindmillViewController.m */,
 			);
 			path = loading;
 			sourceTree = "<group>";
@@ -174,6 +182,8 @@
 				D59A00451D1A7C890079FF97 /* WaterView.m */,
 				D5E09B181D225CC6008E0BC7 /* DDView.h */,
 				D5E09B191D225CC6008E0BC7 /* DDView.m */,
+				D524CD101D2510F4000FB02D /* WindmillView.h */,
+				D524CD111D2510F4000FB02D /* WindmillView.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -308,9 +318,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D524CD121D2510F4000FB02D /* WindmillView.m in Sources */,
 				D54DFB941D0F9A4D00890358 /* ViewController.m in Sources */,
 				D59A00401D1A67520079FF97 /* AnimationView.m in Sources */,
 				D5E09B1A1D225CC6008E0BC7 /* DDView.m in Sources */,
+				D524CD151D2511B8000FB02D /* WindmillViewController.m in Sources */,
 				D54DFB911D0F9A4D00890358 /* AppDelegate.m in Sources */,
 				D54DFB8E1D0F9A4D00890358 /* main.m in Sources */,
 				D5E09B171D225C71008E0BC7 /* DDViewController.m in Sources */,

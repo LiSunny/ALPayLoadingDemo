@@ -109,6 +109,35 @@
             </objects>
             <point key="canvasLocation" x="-281.5" y="808.5"/>
         </scene>
+        <!--风车-->
+        <scene sceneID="LTx-zi-nkd">
+            <objects>
+                <viewController id="OZC-1i-WQA" customClass="WindmillViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pG4-vU-qpD"/>
+                        <viewControllerLayoutGuide type="bottom" id="KgQ-Zz-48s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q8g-oW-Oxw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGx-yr-Ml0">
+                                <rect key="frame" x="157" y="118" width="60" height="30"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="OZC-1i-WQA" eventType="touchUpInside" id="Tk3-yq-yqm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="风车" id="cbU-VS-jch"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GMm-73-Kgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-281.5" y="1588.5"/>
+        </scene>
         <!--首页-->
         <scene sceneID="SXC-3d-AWt">
             <objects>
@@ -148,6 +177,7 @@
                         <segue destination="BYZ-38-t0r" kind="push" identifier="cell0" id="Jef-vb-rE7"/>
                         <segue destination="MZ8-jC-ixv" kind="push" identifier="cell1" id="qtI-Os-7Jh"/>
                         <segue destination="t3Q-tL-70F" kind="push" identifier="cell2" id="wV5-7k-8LR"/>
+                        <segue destination="OZC-1i-WQA" kind="push" identifier="cell3" id="CJd-Iq-XOa"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iK-83-y6C" userLabel="First Responder" sceneMemberID="firstResponder"/>
